@@ -30,8 +30,6 @@ function contaVocali(array) {
     return counter
 }
 
-export { getArrTerminal, arrToString, contaVocali }
-
 
 function numeroMaggiore(array) {
     let numeroMaggiore = array[0]
@@ -42,8 +40,9 @@ function numeroMaggiore(array) {
     });
     return numeroMaggiore
 }
-export{numeroMaggiore}
 
+
+export { getArrTerminal, arrToString, contaVocali, numeroMaggiore }
 
 
 
